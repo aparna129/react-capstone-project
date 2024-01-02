@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&family=Single+Day&display=swap");
+
+* {
+  margin: 0;
+  overflow: hidden;
+}
+.bg-image {
+  height: 645px;
+  width: 680px;
+  display: block;
+  overflow: hidden;
+}
+.text1 {
+  color: white;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 60px;
+  letter-spacing: 5;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: none;
+}
+.text2 {
+  color: white;
+  position: absolute;
+  margin-top: -135px;
+  margin-left: 60px;
+  letter-spacing: 5;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: none;
+}
+.flex {
+  display: flex;
+}
+.user-details {
+  width: 720px;
+  height: 645px;
+  background-color: black;
+  overflow: auto;
+}
+.text3 {
+  color: #72db73;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 280px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Single Day;
+}
+.text4 {
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 260px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: DM Sans;
+}
+.input {
+  border-radius: 5px;
+  background-color: #292929;
+  color: #7c7c7c;
+  margin-top: 20px;
+  margin-left: 135px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 380px;
+  height: 33px;
+  border-style: none;
+}
+.text5 {
+  color: #7c7c7c;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 138px;
+  font-family: DM Sans;
+}
+.bt-n {
+  text-align: left;
+}
+.button {
+  background-color: #72db73;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  padding: 8px 165px;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 135px;
+  font-family: Roboto;
+}
+.text6 {
+  margin-top: 25px;
+  text-align: left;
+  color: #7c7c7c;
+  margin-left: 135px;
+  font-family: DM Sans;
+  font-size: 14px;
+}
+.green-text {
+  color: #72db73;
+}
+.share {
+  margin-left: 10px;
+}
+::placeholder {
+  font-family: DM Sans;
+  text-align: start;
+}
+label {
+  color: #ff0000;
+  font-family: DM Sans;
+  margin-left: 135px;
+}

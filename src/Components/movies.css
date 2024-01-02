@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&family=Single+Day&display=swap");
+
+.movie{
+  height:100vh;
+  background-color: black;
+}
+.header-movies {
+  display: flex;
+  height: 9vh;
+}
+.heading-movies {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 27px;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+.profile-icon {
+  margin-left: 1155px;
+  margin-top: 15px;
+}
+.subheading {
+  height: 4vh;
+}
+.subheading-movies {
+  color: white;
+  margin-left: 55px;
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-top:1px;
+}

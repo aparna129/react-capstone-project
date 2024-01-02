@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&family=Single+Day&display=swap");
+
+.notes-news-timer {
+  height: 100vh;
+  background-color: black;
+}
+.flex1 {
+  display: flex;
+}
+.flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  background-color: #5746ea;
+  color: white;
+  height: 30vh;
+  width: 30vw;
+  margin-left: 40px;
+  margin-top: 45px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.weather {
+  margin-top: 20px;
+  height: 20vh;
+  width: 30vw;
+  margin-left: 40px;
+  border-radius: 15px;
+  display: inline-block;
+  color: white;
+  overflow: auto;
+}
+.notes {
+  background-color: #f1c75b;
+  margin-left: 50px;
+  margin-top: 45px;
+  height: 53.5vh;
+  width: 30vw;
+  border-radius: 15px;
+  display: inline-block;
+  overflow-y: auto;
+}
+.news {
+  margin-left: 40px;
+  margin-top: 45px;
+  height: 83vh;
+  width: 28vw;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: white;
+}
+.browse-btn {
+  background-color: #148a08;
+  color: white;
+  margin-left: 1185px;
+  margin-top: 10px;
+  height: 5.5vh;
+  width: 10vw;
+  border-radius: 20px;
+  border: none;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 550;
+  padding-bottom: 3px;
+}
+.all-notes {
+  background-color: #f1c75b;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-family: Roboto;
+}
+.input-notes {
+  margin-left: 15px;
+  margin-top: 20px;
+  height: 37vh;
+  width: 26.5vw;
+  background-color: #f1c75b;
+  color: black;
+  font-family: Roboto;
+  font-size: 20px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-top: -20px;
+  border: none;
+}
+
+.profilepic {
+  margin-left: 20px;
+  margin-top: 11px;
+}
+.user-info {
+  display: flex;
+  background-color: #5746ea;
+}
+.commonstyle {
+  color: white;
+  background-color: #5746ea;
+  font-family: Roboto;
+  margin-left: 25px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.userData {
+  margin-top: 16px;
+}
+.profile-username {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -3px;
+}
+.selectedgenre {
+  overflow-y: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 11vh;
+  width: 15vw;
+}
+.genres {
+  background-color: #9f94ff;
+  font-family: Roboto;
+  color: white;
+  height: 3.5vh;
+  width: 5.5vw;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  padding-top: 3px;
+}
+.section-1 {
+  height: 5vh;
+  background-color: #ff4ade;
+  display: flex;
+}
+.weather-date-time {
+  background-color: #ff4ade;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 52.5px;
+  margin-top: 4px;
+  font-family: Roboto;
+  letter-spacing: 1px;
+}
+.date-time {
+  height: 6vh;
+  background-color: #ff4ade;
+}
+.section-2 {
+  height: 14vh;
+  background-color: #101744;
+  display: flex;
+  width: 30vw;
+  font-family: Roboto;
+}
+.icon-text {
+  margin-left: 15px;
+  margin-top:10px;
+}
+.line {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.pressure {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.wind {
+  margin-top: 3px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.pressure-icon-text {
+  display: flex;
+  margin-top: 5px;
+}
+.wind-icon-text {
+  display: flex;
+  margin-top: 10px;
+}
+.humidity-icon-text {
+  display: flex;
+  margin-top: 14px;
+}
+.news-title {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: -120px;
+  background-color: transparent;
+  font-weight: 600;
+  height: 18vh;
+  width: 28vw;
+  overflow: auto;
+  letter-spacing: 1px;
+}
+.date-time-news {
+  position: absolute;
+  display: flex;
+  margin-top: 15px;
+  font-family: Roboto;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  gap: 8px;
+}
+.news-image {
+  height: 50vh;
+}
+.news-description {
+  background-color: white;
+  height: 33vh;
+  overflow: auto;
+  margin: 22px;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.start-stop {
+  background-color: transparent;
+  font-size: 22px;
+  font-family: Roboto;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.dots {
+  margin-top: 47px;
+  color: white;
+  font-size: 40px;
+  background-color: #1e2343;
+}
